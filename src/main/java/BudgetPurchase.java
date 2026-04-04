@@ -13,11 +13,11 @@ public class BudgetPurchase {
         prices.add(77.77);
         prices.add(55.44);
 
-        double budget = 90;
+        double budget = 414.42;
         double totalSpent = 0;
         int bought = 0;
 
-        while (bought < prices.size() && totalSpent + prices.get(bought) < budget) {
+        while (bought < prices.size() && totalSpent + prices.get(bought) <= budget) {
             totalSpent += prices.get(bought);
             bought++;
         }

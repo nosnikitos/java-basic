@@ -4,7 +4,16 @@ public class Person {
     String lastName;
     int age;
 
+    public Person () {
+    }
+
+    public Person (String firstName, String lastName, Integer age) {
+        this.firstName = firstName;
+        this.lastName = lastName;
+        this.age = age;
+    }
+
     public void introduce() {
-        System.out.println("Привет, меня зовут " + firstName + " " + lastName + ". Мне " + age + " лет .");
+        System.out.println("Привет, меня зовут " + firstName + " " + lastName + ". Мне " + age + " лет.");
     }
 }

@@ -1,8 +1,8 @@
 public class Person {
 
-    String firstName;
-    String lastName;
-    int age;
+    private String firstName;
+    private String lastName;
+    private int age;
 
     public Person () {
     }

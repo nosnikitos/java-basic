@@ -2,11 +2,7 @@ public class Main {
 
     public static void main(String[] args) {
 //      задание из 1 урока
-        Person person = new Person();
-
-        person.firstName = "Никита";
-        person.lastName = "Ноздрин";
-        person.age = 27;
+        Person person = new Person("Никита", "Ноздрин", 27);
 
         person.introduce();
 

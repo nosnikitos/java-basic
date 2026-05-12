@@ -1,6 +1,6 @@
 public class BankAccount {
     private String ownerName;
-    private Double balance;
+    private double balance;
 
     public String getOwnerName() {
         return ownerName;
@@ -14,11 +14,11 @@ public class BankAccount {
         }
     }
 
-    public Double getBalance() {
+    public double getBalance() {
         return balance;
     }
 
-    public void setBalance(Double balance) {
+    public void setBalance(double balance) {
         if (balance >= 0) {
         this.balance = balance;
         } else {
